@@ -10,18 +10,18 @@
 <body>
     <section>
         <div class="wrapper">
-            <form>
+            <form id="form">
                 <label>Item 1:
-                    <input type="text" class="input" value="" />
+                    <input type="text" class="input" id="item1" value=""  />
                 </label>
                 <label>Item 2:
-                    <input type="text" class="input" value="" />
+                    <input type="text" class="input" id="item2" value="" />
                 </label>
                 <label>Item 3:
-                    <input type="text" class="input" value="" />
+                    <input type="text" class="input" id="item3" value="" />
                 </label>
                 <label>Item 4:
-                    <input type="text" class="input" value="" />
+                    <input type="text" class="input" id="item4" value="" />
                 </label>
                 <div class="wrapper--button">
                     <button type="button" id="generateList">Make My List</button>
@@ -29,7 +29,12 @@
             </form>
         </div>
         <div id="myList" class="wrapper">
-
+          <ul id="list">
+            <li id="item1" class="listItem" ></li>
+            <li id="item2" class="listItem" ></li>
+            <li id="item3" class="listItem" ></li>
+            <li id="item4" class="listItem" ></li>
+          </ul>
         </div>
     </section>
 </body>
